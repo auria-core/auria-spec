@@ -70,13 +70,13 @@ auria-runtime/
 └── auria-cli/
 ```
 
-This structure MUST be preserved.
+This structure MAY be preserved but MAY not necessarily exist.
 
 ---
 
 # 4. Workspace Cargo.toml
 
-Root Cargo.toml MUST define workspace:
+Root Cargo.toml MAY define workspace but MAY not necessarily exist:
 
 ```toml
 [workspace]
